@@ -1,0 +1,26 @@
+section {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font: var();
+  margin-top: 2.125rem;
+  & a {
+    text-decoration: none;
+    display: block;
+    color: inherit;
+    font-family: 'inter', sans-serif;
+    font-size: 0.875rem;
+    font-weight: var(--fw-md);
+    line-height: 1rem;
+    color: var(--color-brand);
+  }
+}
+
+
+@media (width >=80em) {
+  section {
+    margin-left: 23.0625rem;
+    margin-right: 23.125rem;
+    margin-top: 3.875;
+
+  }
+}

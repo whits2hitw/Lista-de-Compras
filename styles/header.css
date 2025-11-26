@@ -1,0 +1,33 @@
+header {
+  & img {
+    display: none;
+  }
+}
+
+@media (width >=80em) {
+  header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 1.5625rem;
+
+    & div {
+      display: flex;
+      gap: .4375rem;
+      & img:nth-child(1) {
+        max-width: 30.51px;
+        max-height: 23.33px;
+      }
+
+      & img:nth-child(2) {
+        max-width: 118px;
+        max-height: 40px;
+      }
+    }
+
+    & img {
+      display: flex;
+
+    }
+  }
+}
