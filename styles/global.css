@@ -10,6 +10,10 @@
   font: inherit;
 }
 
+body {
+  background-color: var(--bg-primary);
+}
+
 :root {
   --bg-primary: #F4F5FB;
   --bg-secondary: #FFFFFF;
@@ -38,9 +42,8 @@ input {
 }
 
 input[type="checkbox"] {
-  /* appearance: none;
+  appearance: none;
   -webkit-appearance: none;
-  -moz-appearance: none; */
-  /* opacity: 0; */
+  -moz-appearance: none;
 
 }

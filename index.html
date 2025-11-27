@@ -35,15 +35,43 @@
           <button type="submit">Adicionar item</button>
         </label>
       </div>
+
       <div class="flex-column" id="default-items">
         <label class="item-list flex">
-          <input type="checkbox" name="item" value="pao-de-forma" >
-          <img src="assets/icons/checkbox.svg" alt="Imagem da caixa de checagem">
+          <input type="checkbox" name="item" value="pao-de-forma">
+          <span id="new-check"></span>
           <p>Pão de forma</p>
-          <button><img src="assets/icons/trash.svg" alt="Ícone de lixeira"></button>
+          <button id="trashcan"><img src="assets/icons/trash.svg" alt="Ícone de lixeira"></button>
+        </label>
+
+        <label class="item-list flex">
+          <input type="checkbox" name="item" value="cafe-preto">
+          <span id="new-check"></span>
+          <p>Café preto</p>
+          <button id="trashcan"><img src="assets/icons/trash.svg" alt="Ícone de lixeira"></button>
+        </label>
+
+        <label class="item-list flex">
+          <input type="checkbox" name="item" value="suco-de-laranja">
+          <span id="new-check"></span>
+          <p>Suco de laranja</p>
+          <button id="trashcan"><img src="assets/icons/trash.svg" alt="Ícone de lixeira"></button>
+        </label>
+
+        <label class="item-list flex">
+          <input type="checkbox" name="item" value="bolacha">
+          <span id="new-check"></span>
+          <p>Bolacha</p>
+          <button id="trashcan"><img src="assets/icons/trash.svg" alt="Ícone de lixeira"></button>
         </label>
       </div>
     </form>
+
+    <footer class="flex">
+      <img src="assets/icons/alert.svg" alt="Icone de alerta">
+      <p>O item foi excluído da lista</p>
+      <button id="x-btn"><img src="assets/icons/x-icon.svg" alt="Ícone de X"></button>
+    </footer>
   </section>
 
 </body>
