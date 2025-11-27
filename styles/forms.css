@@ -73,6 +73,7 @@ form {
 
       & button {
         width: 10rem;
+        cursor: pointer;
       }
     }
   }
