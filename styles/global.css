@@ -10,7 +10,7 @@
   font: inherit;
 }
 
-:root{
+:root {
   --bg-primary: #F4F5FB;
   --bg-secondary: #FFFFFF;
 
@@ -30,5 +30,17 @@
   --fw-semibold: 600;
   --fw-md: 500;
 
+
+}
+
+input {
+  text-decoration: none;
+}
+
+input[type="checkbox"] {
+  /* appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none; */
+  /* opacity: 0; */
 
 }

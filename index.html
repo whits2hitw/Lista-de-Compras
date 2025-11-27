@@ -28,7 +28,21 @@
   <section class="flex-column">
     <a href="#">&lt;-Voltar</a>
     <form>
-
+      <h1>Compras da semana</h1>
+      <div class="flex-column" id="add-item">
+        <label class="flex-column">
+          <input name="new-item" type="text" placeholder="Adicione um novo item">
+          <button type="submit">Adicionar item</button>
+        </label>
+      </div>
+      <div class="flex-column" id="default-items">
+        <label class="item-list flex">
+          <input type="checkbox" name="item" value="pao-de-forma" >
+          <img src="assets/icons/checkbox.svg" alt="Imagem da caixa de checagem">
+          <p>Pão de forma</p>
+          <button><img src="assets/icons/trash.svg" alt="Ícone de lixeira"></button>
+        </label>
+      </div>
     </form>
   </section>
 

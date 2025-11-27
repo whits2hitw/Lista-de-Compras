@@ -1,0 +1,87 @@
+form {
+  margin-top: 1rem;
+
+  & h1 {
+    font-family: 'inter', sans-serif;
+    font-weight: var(--fw-bold);
+    font-size: 1.5rem;
+    color: var(--content-primary);
+    line-height: 2rem;
+  }
+
+  & #add-item {
+
+    margin-top: 2.75rem;
+
+    & label {
+      gap: 1rem;
+
+      & input {
+        height: 2.75rem;
+        border-radius: 12px;
+        padding-left: 1.125rem;
+        border: 1px solid var(--border-primary);
+        outline: none;
+        font-family: 'inter', sans-serif;
+
+        &:hover {
+          border: 1px solid var(--border-secondary);
+        }
+
+        &:focus {
+          border: 1px solid var(--color-brand);
+          color: var(--content-primary);
+        }
+      }
+
+      & button {
+        height: 2.75rem;
+        border-radius: 12px;
+        font-family: 'inter', sans-serif;
+        color: var(--always-white);
+        background-color: var(--color-brand);
+        border: none;
+        outline: none;
+
+        &:active {
+          background-color: var(--color-brand-hover);
+        }
+      }
+
+    }
+  }
+}
+
+
+
+@media (width >=80em) {
+  #add-item {
+    & label {
+      display: flex;
+      flex-direction: row;
+
+      & input {
+        width: 28.1875rem;
+      }
+
+      & button {
+        width: 10rem;
+      }
+    }
+  }
+}
+
+#default-items {
+  margin-top: 2.5rem;
+
+
+  & img {}
+
+  #item-list {
+    align-items: center;
+    gap: 0.75rem;
+    flex-direction: row;
+
+  }
+
+}
